@@ -1,0 +1,109 @@
+/*colors and fonts*/
+
+body{
+
+  background-color: #cde3eb;
+  font-family: Gayathri, sans-serif;
+  font-size: large;
+  }
+
+h1 {
+  font-family:'Lobster', cursive;
+  font-size: 45px;
+  font-weight: 600;
+  color:#143a52;
+  text-align: center;
+  }
+h2 {
+  color: #143a52
+}
+p {
+  color: #6e828a
+}
+a{
+  text-decoration: none;
+  color: #143a52
+  }
+
+a:hover {
+  color: #AA445C;
+}
+
+
+
+/* custom design with class*/
+
+.container{
+  width: 750px;
+  margin: 100px auto;
+  box
+}
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 350px;
+  }
+}
+
+
+.card-white {
+  background-color: #e3eff3;
+  padding: 40px;
+  box-shadow: 0 px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  margin: 20px;
+  text-align: center;
+}
+
+#img-circle {
+    width: 200px;
+    ;
+    border-radius: 50%;
+    box-shadow: 0px 7px 20px rgba(0,0,0,0.15);
+  }
+.btn-blue {
+  background-color: #143a52;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  }
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline {
+  list-style:none;
+  padding-left: 0px
+}
+.list-inline li{
+  display: inline;
+  padding: 10px;
+ }
+
+.list-inline i{
+  font-size:50px;
+}
+
+/* id changes */
+
+#introduction p{
+  margin-bottom: 20px;
+}
+
+#introduction h1 {
+  margin-top: -20px;
+}
